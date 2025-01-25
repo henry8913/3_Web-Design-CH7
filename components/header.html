@@ -1,0 +1,119 @@
+<header class="bg-dark">
+    <!-- Navbar (sopra i 1024px) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-none d-lg-flex">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" data-page="index.html">
+                <img src="imgs/Netflix_Logo_RGB.png" alt="Netflix Logo" width="100">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-page="TV Shows.html">TV Shows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="Movies.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="Recently Added.html">Recently Added</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="My List.html">My List</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center ms-end">
+                    <a class="nav-link text-light me-3" href="#">
+                        <i class="bi bi-search"></i>
+                    </a>
+                    <a class="nav-link text-light me-3" href="#">KIDS</a>
+                    <div class="position-relative me-3">
+                        <a class="nav-link text-light" href="#">
+                            <i class="bi bi-bell-fill"></i>
+                        </a>
+                    </div>
+                    <div class="dropdown">                            
+                        <a class="nav-link dropdown-toggle p-0" href="#" role="button" id="profileDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="imgs/Henry G.png" alt="Profile" width="40" height="40">
+                            <button class="btn btn-outline-light dropdown-toggle bprofile" type="button" id="genresDropdown1" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 0;"></button>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                            <li><a class="dropdown-item" href="#">Account</a></li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar (sotto i 1024px) -->
+    <nav class="navbar navbar-dark bg-dark fixed-top d-lg-none">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/Netflix_Logo_RGB.png" alt="Netflix Logo" width="90">
+            </a>
+
+            <div class="d-flex align-items-center">
+                <a href="#" class="me-3 text-decoration-none text-light position-relative">
+                    <i class="bi bi-bell-fill"></i>
+                </a>
+                <div class="dropdown me-3">
+                    <a href="#" class="d-flex align-items-center text-decoration-none" id="profileDropdownMobile" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="imgs/Henry G.png" alt="Profile" width="40" height="40">
+                        <button class="btn btn-outline-light dropdown-toggle bprofile" type="button" id="genresDropdown2" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 0;">                           </button>
+                    </a>
+                    
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdownMobile">
+                        <li><a class="dropdown-item" href="#">Account</a></li>
+                        <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                    </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMobile" aria-controls="offcanvasMobile" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasMobile" aria-labelledby="offcanvasMobileLabel" style="width: 75%;">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasMobileLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light active" href="#">TV Shows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Recently Added</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">My List</a>
+                        </li>
+                    </ul>
+                    <hr class="text-light">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Sign Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>     
+</header>  
