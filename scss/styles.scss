@@ -8,6 +8,56 @@ $primary-hover-color: #444;
   background-color: $bg-dark-color !important;
 }
 
+.footer {
+  font-size: 0.9rem;
+  color: #808080;
+
+  a {
+    color: #808080;
+
+    &:hover {
+      color: lighten(#808080, 10%);
+      text-decoration: underline;
+    }
+  }
+
+  .fs-4 {
+    font-size: 1.5rem;
+    color: #808080;
+
+    &:hover {
+      color: lighten(#808080, 10%);
+    }
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.75rem;
+    color: #808080;
+    border-color: #808080;
+
+    &:hover {
+      color: #fff;
+      background-color: #808080;
+    }
+  }
+
+  p {
+    font-size: 0.85rem;
+    color: #808080;
+  }
+}
+
+.btn-custom-outline {
+  border-color: #808080;
+  color: #808080;
+
+  &:hover {
+    background-color: #808080;
+    color: #fff;
+  }
+}
+
 .bprofile {
   border: none;
   outline: none;

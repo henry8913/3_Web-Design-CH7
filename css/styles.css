@@ -2,6 +2,48 @@
   background-color: #141414 !important;
 }
 
+.footer {
+  font-size: 0.9rem;
+  color: #808080;
+}
+.footer a {
+  color: #808080;
+}
+.footer a:hover {
+  color: rgb(153.5, 153.5, 153.5);
+  text-decoration: underline;
+}
+.footer .fs-4 {
+  font-size: 1.5rem;
+  color: #808080;
+}
+.footer .fs-4:hover {
+  color: rgb(153.5, 153.5, 153.5);
+}
+.footer .btn {
+  font-size: 0.8rem;
+  padding: 0.4rem 0.75rem;
+  color: #808080;
+  border-color: #808080;
+}
+.footer .btn:hover {
+  color: #fff;
+  background-color: #808080;
+}
+.footer p {
+  font-size: 0.85rem;
+  color: #808080;
+}
+
+.btn-custom-outline {
+  border-color: #808080;
+  color: #808080;
+}
+.btn-custom-outline:hover {
+  background-color: #808080;
+  color: #fff;
+}
+
 .bprofile {
   border: none;
   outline: none;
